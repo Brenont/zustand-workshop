@@ -1,12 +1,9 @@
+import { useStepper } from "../../store/stepper";
 import "./style.css";
 import { useRegisterStepper } from "../../store/registerStepper";
 
 export const StepperControls = () => {
-  const { current, next, previous, isFirst, isLast, total } =
-    useRegisterStepper();
-
-  // console.log(useRegisterStepper.destroy());
-  console.log(useRegisterStepper.getState());
+  const { isFirst, isLast, current, total, next, previous } = useStepper();
 
   return (
     <div id="stepper-controls-wrapper">
