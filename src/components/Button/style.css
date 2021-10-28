@@ -1,0 +1,9 @@
+.button-root {
+  border: 0;
+  background-color: rgb(115, 165, 208);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #918a8a;
+  cursor: pointer;
+}

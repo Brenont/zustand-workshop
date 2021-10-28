@@ -1,0 +1,13 @@
+#stepper-controls-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#stepper-controls-wrapper .page-status {
+  padding: 0 25px;
+}
+
+#stepper-controls-wrapper .move-page {
+  cursor: pointer;
+}
