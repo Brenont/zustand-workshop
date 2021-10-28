@@ -1,4 +1,3 @@
-import { useRegisterStepper } from "../../store/registerStepper";
 import { PersonalForm, InfoForm, AddressForm, PasswordForm } from "./steps";
 import "./style.css";
 
@@ -10,9 +9,7 @@ const formSteps = {
 };
 
 const Form = () => {
-  const current = useRegisterStepper((state) => state.current);
-
-  const stepForm = formSteps[current] || <></>;
+  const stepForm = formSteps[1] || <></>;
 
   return <div id="form-wrapper">{stepForm}</div>;
 };
