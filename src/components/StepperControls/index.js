@@ -1,6 +1,5 @@
 import { useStepper } from "../../store/stepper";
 import "./style.css";
-import { useRegisterStepper } from "../../store/registerStepper";
 
 export const StepperControls = () => {
   const { isFirst, isLast, current, total, next, previous } = useStepper();
